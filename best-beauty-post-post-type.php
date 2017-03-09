@@ -81,19 +81,9 @@ class BestBeautyPostPostType
 					'name' => 'best-beauty-product',
 					'type' => 'post_object',
 					'instructions' => 'Please type in a product name.',
-					'required' => 0,
-					'conditional_logic' => 0,
-					'wrapper' => array (
-						'width' => '',
-						'class' => '',
-						'id' => '',
-					),
 					'post_type' => array (
 						0 => 'product',
 					),
-					'taxonomy' => array (
-					),
-					'allow_null' => 0,
 					'multiple' => 1,
 					'return_format' => 'object',
 					'ui' => 1,
@@ -108,14 +98,7 @@ class BestBeautyPostPostType
 					),
 				),
 			),
-			'menu_order' => 0,
-			'position' => 'normal',
-			'style' => 'default',
-			'label_placement' => 'top',
-			'instruction_placement' => 'label',
-			'hide_on_screen' => '',
 			'active' => 1,
-			'description' => '',
 		));
 	}
 }
